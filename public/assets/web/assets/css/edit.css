@@ -1,0 +1,40 @@
+.header .navbar .navbar-nav > li.drop-edit.active > .dropdown-toggle::after{
+    display: none;
+}
+
+.header .navbar .navbar-nav > li.drop-edit > .dropdown-toggle::after{
+    display: none;
+}
+.bg-overlay-theme3:before {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#0072bc),
+      color-stop(86%, #0072bc)
+    );
+    background-image: -o-linear-gradient(top, #0072bc 0%, #0072bc 86%);
+    background-image: linear-gradient(180deg, #0072bc 0%, #0072bc 86%);
+  }
+  .bg-overlay-theme5:before {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(46%, #f0b259),
+      color-stop(144%, #f39f3c)
+    );
+    background-image: -o-linear-gradient(top, #f0b259 46%, #f39f3c 144%);
+    background-image: linear-gradient(180deg, #f0b259 46%, #f39f3c 144%);
+  }
+  .bg-overlay-theme:before {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#0072bc),
+      color-stop(82%, #0072bc)
+    );
+    background-image: -o-linear-gradient(top, #0072bc 0%, #0072bc 82%);
+    background-image: linear-gradient(180deg, #0072bc 0%, #0072bc 82%);
+  }
